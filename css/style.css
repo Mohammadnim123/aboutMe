@@ -10,13 +10,21 @@ h1{
     font-size: 50px;
 }
 
-p{
-text-align: center;
+#personal1{
+
 font-size: 25px;
 font-family: monospace;
+margin: 3cm;
 }
 
-#byes {
+#personal2{
+  
+    font-size: 25px;
+    font-family: monospace;
+    margin: 3cm;
+    }
+
+footer {
     font-size: 40px;
     color: red;
     background-color: black;
@@ -31,4 +39,10 @@ font-family: monospace;
   margin-right: auto;
   width: 250px;
 
+}
+
+#myWork {
+    font-size: 25px;
+    font-family: monospace;
+    margin: 3cm;
 }
