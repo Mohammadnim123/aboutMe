@@ -11,7 +11,7 @@ var yourName = prompt("what is your name?");
 console.log ("your name is " + yourName)
 alert("welcom....." + yourName + " please answer the following qustion with (yes/y) or (no/n)");
 
-
+function qus1(){
 var qustion1 = prompt("Is my name mohammad?");
 qustion1 = qustion1.toLowerCase();
 if (qustion1 == "yes" || qustion1 == "y") {
@@ -26,8 +26,10 @@ else {
 }
 console.log (" qustion1 have a " + ans1);
 alert(" qustion1 have a " + ans1);
+}
+qus1();
 
-
+function qus2(){
 var qustion2 = prompt("Is my old 24?");
 qustion2 = qustion2.toLowerCase();
 if (qustion2 == "no" || qustion2 == "n") {
@@ -42,8 +44,11 @@ else {
 }
 console.log (" qustion2 have a " + ans2);
 alert(" qustion2 have a " + ans2);
+}
+qus2();
 
 
+function qus3(){
 var qustion3 = prompt("Im from saudi arabia thats right?");
 qustion3 = qustion3.toLowerCase();
 if (qustion3 == "no" || qustion3 == "n") {
@@ -58,8 +63,10 @@ else {
 }
 console.log (" qustion3 have a " + ans3);
 alert(" qustion3 have a " + ans3);
+}
+qus3();
 
-
+function qus4(){
 var qustion4 = prompt("Is my first major is Mechanical Engineering?");
 qustion4 = qustion4.toLowerCase();
 if (qustion4 == "yes" || qustion4 == "y") {
@@ -74,9 +81,10 @@ else {
 }
 console.log (" qustion4 have a " + ans4);
 alert(" qustion4 have a " + ans4);
+}
+qus4();
 
-
-
+function qus5(){
 var qustion5 = prompt("Is my second major is programmer?");
 qustion5 = qustion5.toLowerCase();
 if (qustion5 == "yes" || qustion5 == "y") {
@@ -91,10 +99,12 @@ else {
 }
 console.log(" qustion5 have a " + ans5);
 alert(" qustion5 have a " + ans5);
+}
 
-
-
+qus5();
 alert ("Now you can make many attempte in these qustions .... lets go.")
+
+function qus6(){
 for (var i = 1; i <= 4; i++) {
 
     var qustion6 = prompt("Guess how many members of my family? ...." + "(attempt " + i + " of 4)");
@@ -117,7 +127,9 @@ console.log ("true answer")
     }
 
 }
-
+}
+qus6();
+function qus7(){
 var myAnimes = ["attack on titan" , "death note" , "naruto", "one piece" , "bleach"];
 
 mainLoop:
@@ -143,7 +155,8 @@ for (var y = 1 ; y <=6 ; y++){
     }
 
 }
-
+}
+qus7();
 alert("Now your Grade is " + yourGrade + " out of 7")
 alert("Thank you for your time " + yourName);
 
