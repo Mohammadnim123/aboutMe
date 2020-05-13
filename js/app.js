@@ -129,7 +129,8 @@ console.log ("true answer")
 }
 }
 qus6();
-function qus7(){
+
+function qustion7(){
 var myAnimes = ["attack on titan" , "death note" , "naruto", "one piece" , "bleach"];
 
 mainLoop:
@@ -156,7 +157,7 @@ for (var y = 1 ; y <=6 ; y++){
 
 }
 }
-qus7();
+qustion7();
 alert("Now your Grade is " + yourGrade + " out of 7")
 alert("Thank you for your time " + yourName);
 
