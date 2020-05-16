@@ -139,7 +139,7 @@ for (var y = 1 ; y <=6 ; y++){
     
     for (var x = 0 ; x < myAnimes.length; x++){
     
-        if (qustion7 === myAnimes[x].toLowerCase()){ 
+        if (qustion7.toLowerCase() === myAnimes[x]){ 
             alert("true answer");
             console.log ("true answer")
             yourGrade = yourGrade + 1;
